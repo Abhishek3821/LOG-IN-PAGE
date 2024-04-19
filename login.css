@@ -1,0 +1,86 @@
+body{
+
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(./pexels-te-lensfix-1371360.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+.box{
+    border-radius: 15px;
+    width: 25vw;
+    height: 62vh;
+    padding: 20px;
+    justify-content: space-between;
+    color: black;
+    /* background-color: black; */
+    background: transparent;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255 , 255, 0.2);
+    
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sign-up>a{
+    text-decoration: none;
+    color: black;
+    font: bold;
+    font-size: 12pt;
+}
+.box>h2{
+    margin-left: 38%;
+}
+.box:hover{
+    opacity: 1;
+    font-weight: 300;
+    
+}
+input{
+    padding: 15px;
+    border-radius: 15px;
+    border: black;
+}
+button{
+    width: 7vw;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 35%;
+    margin-top: 20px;
+    font-size: medium;
+} 
+/* .small-box{
+    margin: 10px -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 70%;
+    left: 33%;
+    z-index: 1;
+    color: white;
+} */
+.boxCont{
+    margin-top: 5px ;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+    
+}
+.boxCont:hover{
+    opacity: 1;
+    font-weight: bold;
+}
+.img{
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
